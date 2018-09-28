@@ -8,7 +8,9 @@ An example of how to query Google Drive V3 API from Goole Apps Script.
 - [Google Drive V3 API](https://developers.google.com/drive/api/v3/reference/)
 
 ## How it works
-This script checks the specified folder recursively. If there are updated files in the past N hours,  it sends an e-mail.
+This script checks the specified folder recursively. If there are updated files in the past N hours,  it sends an e-mail. It will look like:
+
+![image](https://github.com/thayashi/apps-script-gdrive-watcher/blob/images/screenshot.png?raw=true)
 
 ## Configuration
 First of all, create .clasp.json (like .clasp.json.example), put your script ID on it.
